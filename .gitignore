@@ -1,0 +1,8 @@
+node_modules/
+.env
+credentials.json
+token.json
+*.csv
+table_dump.html
+api_debug.js
+table_dump.js
