@@ -1,8 +1,76 @@
+```gitignore
+# ===========================
+# Dependencies
+# ===========================
 node_modules/
+
+# ===========================
+# Environment Variables
+# ===========================
 .env
+.env.local
+
+# ===========================
+# Google API Credentials
+# ===========================
 credentials.json
 token.json
+
+# ===========================
+# Generated Data Files
+# ===========================
 *.csv
 table_dump.html
-api_debug.js
 table_dump.js
+api_debug.js
+
+# ===========================
+# Playwright Reports
+# ===========================
+playwright-report/
+test-results/
+blob-report/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# Build Files
+# ===========================
+dist/
+build/
+
+# ===========================
+# Cache
+# ===========================
+.cache/
+
+# ===========================
+# IDE & Editor Files
+# ===========================
+.vscode/
+.idea/
+
+# ===========================
+# Operating System Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Windows Shortcuts
+# ===========================
+*.lnk
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.bak
+```
